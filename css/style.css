@@ -1,0 +1,73 @@
+
+* {
+  font-family: arial;
+  
+}
+.fa-times-circle {
+color: red;
+cursor: pointer;
+}
+
+
+
+tbody>tr.new-book:hover {
+  background-color: rgb(76, 212, 76);
+  transition: .3s;
+  color: white;
+}
+
+.header {
+  border: 3px solid #428bca;
+  border-radius: 50px 15px 50px 15px;
+  /* width: 60vw; */
+  padding: 20px;
+}
+
+span, i {
+  color: #428bca ;
+}
+
+input.input {
+  background-color: #428bca;
+  transition: .3s;
+}
+input.input:hover {
+  background-color: #065fad;
+  color: white;
+}
+.delete {
+  cursor : pointer;
+}
+
+.delete-alert {
+  font-family: arial;
+  text-align: center;
+  background-color: rgb(240, 226, 35);
+  margin: 0 auto;
+  height: 7vh;
+  line-height: 7vh;
+  
+}
+
+.yes, .no {
+  border-style: none;
+  border: none;
+  background-color: white;
+  height: 70%;
+  line-height: 70%;
+  margin-left: 5vw;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 3px;
+
+}
+.yes:hover {
+  background-color: rgb(240, 226, 35);
+  color: red;
+  
+}
+.no:hover {
+  background-color: rgb(240, 226, 35);
+  color: green;
+  
+}
